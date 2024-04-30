@@ -63,7 +63,7 @@ parser.add_argument('--pre_zer', '-pr', type=int, default=0, help="which pretrai
 parser.add_argument('--do_with_pre_zee', '-dope', action='store_true')
 parser.add_argument('--pre_zee', '-pe', type=int, default=-1, help="which pretrained optimizee")
 
-parser.add_argument('--which_problem', '-p', type=str, default='mni', help="which problem", choices = ['mni', 'cnn', 'res'])
+parser.add_argument('--which_problem', '-p', type=str, default='mni', help="which problem", choices = ['mni', 'cnn', 'r18', 'r50'])
 
 
 parser.add_argument('--n_epochs', '-n', type=int, default=200)
